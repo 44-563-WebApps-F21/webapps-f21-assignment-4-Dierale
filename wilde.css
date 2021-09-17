@@ -13,7 +13,7 @@
     background-color: #ffebcd;
 }
 
-.direction:hover {
+.stage-direction:hover {
     background-color: #555555;
     color: #ffebcd;
 }
@@ -31,4 +31,24 @@
 
 .charCaversham {
     color: #5f5c8f;
+}
+
+table {
+    border: 3px solid black;
+    margin: 10px;
+}
+
+th {
+    border: 3px solid black;
+    padding: 5px 7px;
+    text-align: center;
+    background-color: #555;
+    color: #FFF;
+}
+
+td {
+    border: 3px solid black;
+    padding: 5px 7px;
+    text-align: left;
+    color: black;
 }
