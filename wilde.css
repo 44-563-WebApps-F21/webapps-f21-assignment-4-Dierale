@@ -1,14 +1,14 @@
 
 .speech {
     font-family: Georgia;
-    font-size: 12;
+    font-size: 12px;
     color: black;
 }
 
-.direction {
+.stage-direction {
     font-family: Arial;
     font-style: italic;
-    font-size: 16;
+    font-size: 14spx;
     color: black;
     background-color: #ffebcd;
 }
@@ -21,7 +21,7 @@
 .name {
     font-family: Hevetica;
     font-weight: bold;
-    font-size: 12;
+    font-size: 12px;
     color: black;
 }
 
