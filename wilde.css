@@ -60,3 +60,28 @@ td {
     text-align: left;
     color: black;
 }
+
+ul.navbar-horizontal {
+    /* remove these */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  
+  }
+  
+  ul.navbar-horizontal li {
+    float:left;/* line up horizontally */
+    color:#FFF;
+    background-color:rgb(9, 92, 16);
+  }
+  
+  ul.navbar-horizontal a {
+    display:block;
+    padding:8px
+  }
+  
+  /* on hover change the link color*/
+  ul.navbar-horizontal a:hover {  
+    background-color: rgb(0, 150, 125);
+    color:white;
+  }
