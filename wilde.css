@@ -25,6 +25,14 @@
     color: black;
 }
 
+.name:hover {
+    filter: blur;
+    color: #FFF;
+    text-shadow: 1px 1px #d7dd7f;
+    border: 3px solid black;
+    background: #555;
+}
+
 .charGoring {
     color: #814981;
 }
