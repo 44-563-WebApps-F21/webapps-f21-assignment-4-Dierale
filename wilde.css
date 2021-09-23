@@ -65,18 +65,29 @@ div.navbar-container ul.navbar-horizontal {
     list-style-type: none;
     margin: 0;
     padding: 0;
-
+    width: 99%;
+    
 }
 
 div.navbar-container ul.navbar-horizontal li {
     float:left;/* line up horizontally */
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 47%;
+    text-align: center;
     color:#FFF;
     background-color:rgb(9, 92, 16);
 }
 
 div.navbar-container ul.navbar-horizontal a {
     display:block;
-    padding:8px
+    padding:8px;
+    color: #FFF;
+}
+
+div.navbar-container ul.navbar-horizontal a:visited {
+    color: rgb(2, 255, 213);
 }
 
 /* on hover change the link color*/
